@@ -1,0 +1,123 @@
+.loginPage .rightSide form {
+	width: 38%;
+	height: 28rem;
+	margin-left: 35%;
+	margin-top: 10%;
+	border: 2px solid #cecece;
+	border-radius: 5px;
+}
+
+.loginPage .rightSide form h2 {
+	font-size: 3rem;
+	margin-left: 35%;
+}
+
+.loginPage .rightSide p {
+	/* text-align: left; */
+	margin-left: 20%;
+	font-family: "Inter", sans-serif;
+}
+
+.loginPage .rightSide form input[type="text"],
+.loginPage .rightSide form input[type="password"] {
+	width: 18rem;
+	height: 1.8rem;
+	padding-left: 8px;
+	border-radius: 6px;
+	border: 1px solid #949292;
+	font-family: "Inter", sans-serif;
+	margin-left: 6rem;
+}
+.loginPage .rightSide form button {
+	background: #333baed0;
+	border-radius: 10px;
+	width: 14rem;
+	height: 2.2rem;
+	margin-top: 6%;
+	font-family: "Poppins", sans-serif;
+	color: #ffffff;
+	border: none;
+	margin-left: 28%;
+}
+
+@media only screen and (max-width: 1075px) {
+	.loginPage .leftSide {
+		width: 30%;
+	}
+
+	.loginPage .leftSide h2 {
+		position: absolute;
+		top: 55%;
+		left: 8%;
+		font-size: 2rem;
+		color: #ffffff;
+		font-weight: 550;
+	}
+
+	.loginPage .leftSide p {
+		position: absolute;
+		top: 65%;
+		left: 36%;
+		font-size: 1.2rem;
+		color: #ffffff;
+		font-weight: 450;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.loginPage .leftSide {
+		width: 30%;
+	}
+
+	.loginPage .leftSide h2 {
+		position: absolute;
+		top: 55%;
+		left: 8%;
+		font-size: 2rem;
+		color: #ffffff;
+		font-weight: 550;
+	}
+
+	.loginPage .leftSide p {
+		position: absolute;
+		top: 65%;
+		left: 36%;
+		font-size: 1.2rem;
+		color: #ffffff;
+		font-weight: 450;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+	.loginPage .leftSide {
+		width: 30%;
+	}
+
+	.loginPage .leftSide h2 {
+		position: absolute;
+		top: 55%;
+		left: 8%;
+		font-size: 1.6rem;
+		color: #ffffff;
+		font-weight: 550;
+	}
+
+	.loginPage .leftSide p {
+		position: absolute;
+		top: 65%;
+		left: 36%;
+		font-size: 1rem;
+		color: #ffffff;
+		font-weight: 450;
+	}
+
+	.loginPage .rightSide form input[type="text"],
+	.loginPage .rightSide form input[type="password"] {
+		width: 16rem;
+		height: 1.6rem;
+		padding-left: 8px;
+		border-radius: 6px6;
+		border: 1px solid #949292;
+		font-family: "Inter", sans-serif;
+	}
+}

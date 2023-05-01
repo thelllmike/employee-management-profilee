@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap");
+
+.EmployeeAdd {
+	position: relative;
+	min-height: 100vh;
+	height: 100%;
+}
+
+.EmployeeAdd h2 {
+	margin-left: 30rem;
+	color: #333baed0;
+	font-size: 2rem;
+}
+
+.EmployeeAdd .profile {
+	position: absolute;
+	margin-left: 50rem;
+}
+
+.EmployeeAdd .profile img {
+	width: 8rem;
+    margin-top: 2rem;
+}
+
+.EmployeeAdd .profile-button {
+	display: block;
+	position: absolute;
+	top: 4rem;
+	left: 10rem;
+}
+
+.EmployeeAdd .profile .profile-button button {
+	margin-bottom: 0.8rem;
+	width: 10rem;
+	height: 1.8rem;
+	background-color: #b5b3b8;
+	border: none;
+	border-radius: 1px solid #f0efef;
+	color: #ffffff;
+}
+
+.EmployeeAdd .form {
+    margin-top: 2rem;
+	display: flex;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px #b9b9b9;
+    padding: 2rem;
+    width: 80%;
+    margin-left: 8rem;
+	height: 30rem;
+}
+
+.EmployeeAdd .form1 {
+	margin-left: 2rem;
+	width: 30rem;
+	padding: 1rem;
+	border-radius: 15px;
+}
+
+
+.EmployeeAdd .detail {
+	margin-top: 1rem;
+}
+
+.EmployeeAdd form .detail label {
+	/* background-color: #000000; */
+}
+
+.EmployeeAdd .form1 .detail input {
+	/* display: block; */
+	position: absolute;
+	left: 22rem;
+	width: 18rem;
+	height: 1.5rem;
+	border-radius: 5px;
+	border: 1px solid #cfcdcd;
+	padding-left: 10px;
+}
+
+.EmployeeAdd .btn {
+	margin: 1rem;
+    width: 12rem;
+    height: 2rem;
+    background-color: #333baed0;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20rem;
+}
+
+.EmployeeAdd .btn:nth-child(0) {
+	position: absolute;
+	top: 12rem;
+	left: 15rem;
+}
+
+.EmployeeAdd .btn:hover {
+    background-color: #7041ad;
+}
+
+.EmployeeAdd img.bottom-image {
+	position: absolute;
+	width: 40%;
+	top: 35rem;
+}
+
+.EmployeeAdd .form2 {
+	margin-top: 12rem;
+	width: 20rem;
+	padding: 1rem;
+	border-radius: 15px;
+	/* position: absolute; */
+}
+
+.EmployeeAdd .form2 input {
+	position: absolute;
+	left: 56rem;
+	width: 18rem;
+	height: 1.5rem;
+	border-radius: 5px;
+	border: 2px solid #cfcdcd;
+	padding-left: 10px;
+}
+
+.EmployeeAdd img.ellipse1 {
+	position: absolute;
+	width: 10rem;
+	margin-top: 6rem;
+	opacity: 0.4;
+}
+
+.EmployeeAdd img.ellipse2 {
+    position: absolute;
+	/* height: 69px; */
+	width: 4rem;
+    margin-left: 60rem;
+    margin-top: 10rem;
+	border-radius: 0px;
+    opacity: 0.1;
+}
+
+.EmployeeAdd img.ellipse3 {
+	position: absolute;
+	width: 10rem;
+	bottom: 0;
+	right: 0;
+	opacity: 0.4;
+}
+
+.EmployeeAdd .polygon1 {
+	position: absolute;
+	top: 38rem;
+	left: 38rem;
+	opacity: 0.4;
+	width: 2rem;
+}
+
+

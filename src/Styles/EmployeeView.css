@@ -1,0 +1,174 @@
+.EmployeeView {
+	text-align: left !important;
+	display: flex;
+}
+
+.EmployeeView .main-header {
+	position: absolute;
+	margin-left: 30rem;
+	margin-top: 8rem;
+	font-size: 1.6rem;
+	background-color: #3e24af75;
+	padding: 0.5rem 8rem;
+}
+
+.EmployeeView form {
+	position: absolute;
+	top: 14rem;
+	left: 5rem;
+}
+
+.EmployeeView form input {
+	margin-left: 12rem;
+	margin-right: 2rem;
+	width: 15rem;
+	height: 2rem;
+	border-radius: 25px;
+	border: 2px solid #b9b5b5;
+	padding-left: 15px;
+	font-size: 1rem;
+}
+
+.EmployeeView .add {
+	position: absolute;
+	margin-left: 70rem;
+	margin-top: 12rem;
+	font-size: 1.2rem;
+}
+
+.EmployeeView a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.EmployeeView button {
+	width: 12rem;
+	height: 2rem;
+	border-radius: 15px;
+	border: none;
+	background-color: #333baed0;
+}
+
+.EmployeeView button:hover {
+	background-color: #1c27bdd0;
+}
+
+.EmployeeView table {
+	position: absolute;
+	margin-top: 25%;
+	width: 90%;
+	/* border-collapse: separate; */
+	/* border-spacing: 10px; */
+	margin-left: 5rem;
+	/* background-color: #000000; */
+	text-align: center;
+}
+
+.EmployeeView table thead {
+	font-size: 1.2rem;
+}
+
+.EmployeeView table .users {
+	height: 76%;
+	border-width: 15px;
+	margin-left: 12%;
+	background-color: #fafafa;
+	text-align: center;
+}
+
+.EmployeeView table .users .user {
+	text-align: center;
+}
+
+.EmployeeView .users .user img {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	border: 1px solid #0000003b;
+	padding: 0.6%;
+}
+
+.EmployeeView .users .user .details {
+	margin-left: 8%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.EmployeeView table .actions i {
+	margin-left: 0.8rem;
+	font-size: 1rem;
+}
+
+.EmployeeView table .actions i:nth-child(2) {
+	border-radius: 50%;
+	padding: 0.2rem;
+	width: 1rem;
+	height: 1rem;
+	border: 1px solid #000000;
+}
+
+.EmployeeView img.ellipse1 {
+	position: absolute;
+	width: 10rem;
+	margin-top: 6rem;
+	opacity: 0.4;
+}
+
+.EmployeeView img.ellipse2 {
+	/* position: absolute; */
+	/* height: 69px; */
+	width: 4rem;
+	margin-left: 12rem;
+	margin-top: 2rem;
+	border-radius: 0px;
+}
+
+.EmployeeView img.ellipse3 {
+	position: absolute;
+	/* width: 10rem; */
+	bottom: 0;
+	right: 0;
+	opacity: 0.1;
+	z-index: -1;
+}
+
+.EmployeeView .polygon1 {
+	position: absolute;
+	top: 38rem;
+	left: 38rem;
+	opacity: 0.4;
+	width: 2rem;
+}
+
+.EmployeeView nav img {
+	position: absolute;
+}
+
+.EmployeeView nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 60px;
+	position: absolute;
+	left: 22rem;
+	top: 1rem;
+	list-style: none;
+}
+
+.EmployeeView nav ul li {
+	font-family: "Josefin Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.EmployeeView nav .profile img {
+	width: 3rem;
+	margin-left: 70rem;
+	margin-top: 1rem;
+}
+
