@@ -110,11 +110,13 @@ export default class EmployeeView extends Component {
 					</thead>
 					
 					<tbody>{this.tabRow()}</tbody>
-				</table>
-				<center>
+					<center>
                         <button onClick={() => this.exportPDF()}style={{background:'blue',padding:10, color:'white', border:'none',borderRadius:'20'}}>- Export All -</button>
                     </center>
+				</table>
+				
 			</div>
+			
 			
 		);
 	}
