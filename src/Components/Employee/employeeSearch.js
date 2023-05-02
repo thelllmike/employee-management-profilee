@@ -3,13 +3,13 @@ import React, { Component } from "react";
 
 import "../../Styles/EmployeeView.css";
 import axios from "axios";
-import EmployeeRow from "./EmployeeRow";
+import EmployeeRowsearch from "./EmployeeRow";
 import Footer from './footer'
 
 export default class EmployeeView extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { employee: [], search: "" };
+		this.state = { employees: [], search: "" };
 		this.state.Station = this.props.match.params.id;
 
 		this.onChangeSearch = this.onChangeSearch.bind(this);
@@ -28,7 +28,7 @@ export default class EmployeeView extends Component {
 			.then((response) => {
 				// alert('Pass una')
 				// alert('Data Tika :'+response.data)
-				this.setState({ employee: response.data });
+				this.setState({ employees: response.data });
 			})
 			.catch(function (error) {
 				console.log(error);
@@ -36,8 +36,8 @@ export default class EmployeeView extends Component {
 	}
 
 	tabRow() {
-		return this.state.employee.map(function (object, i) {
-			return <EmployeeRow obj={object} key={i} />;
+		return this.state.employees.map(function (object, i) {
+			return <EmployeeRowsearch obj={object} key={i} />;
 		});
 		
 	}
