@@ -59,7 +59,7 @@ export default class EmployeeView extends Component {
         const title = "My All Employees Report";
         const headers = [["name", "empId","email", "posision"]];
     
-        const data = this.state.farmerSearch.map(elt=> [elt.name, elt.empId,  elt.email,elt.posision]);
+        const data = this.state.employee.map(elt=> [elt.name, elt.empId,  elt.email,elt.posision]);
     
         let content = {
           startY: 50,
