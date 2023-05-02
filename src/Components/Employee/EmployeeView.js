@@ -49,10 +49,19 @@ export default class EmployeeView extends Component {
 
 
 				<h2 className='main-header'>Employee</h2>
-				<form action=''>
-					<input type='text' placeholder='search...' />
-					<button type='submit'>Search</button>
+
+				<form onSubmit={this.onSubmit}>
+					<input type='text' placeholder='search...' required
+									value={this.state.search}
+									onChange={this.onChangeSearch} />
+
+					<button type='submit'>
+					{" "}
+					<a href={"/employeeSearch/" + this.state.search}>Search</a>
+					</button>
 				</form>
+
+
 				<p className='add'>
 					<a href='/employeeadd'> + Employe Add</a>
 				</p>

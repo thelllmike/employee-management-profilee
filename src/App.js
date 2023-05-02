@@ -25,12 +25,13 @@ class App extends Component {
 					<Switch>
 						
 						<Route path='/employeeview' component={EmployeeView} />
+						{/* <Route path='/searchemp/:pathParam1?' component={EmployeeView} /> */}
 					
 						<Route path='/employeeadd' component={EmployeeAdd} />
 						<Route path='/EditEmployee/:id' component={EditEmployee} />
 						<Route path='/personaldetails/:id' component={PersonalDetails} />
 					
-						<Route path='/Login' component={Login} />
+						{/* <Route path='/' component={Login} /> */}
 						<Route path='/employeeSearch/:pathParam1?' component={employeeSearch} />
 						<Route path='/pagenotfound' component={PageNotFound} />
 					</Switch>

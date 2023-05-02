@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import axios from "axios";
 
 
-class TableRow extends Component {
+class sTableRow extends Component {
     constructor(props) {
         super(props);
         this.delete = this.delete.bind(this);
@@ -43,4 +43,4 @@ class TableRow extends Component {
     }
 }
 
-export default TableRow;
+export default sTableRow;
